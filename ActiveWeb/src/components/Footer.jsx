@@ -7,7 +7,7 @@ const Footer = () => {
   return (
       <>
           <div className="bg-gray-100 ">
-      <div className="flex justify-between pt-16 ">
+      <div className="flex justify-between pt-16 pr-32 ">
         <div className="ml-20">
           <h1 className="text-xl font-semibold">About Us</h1>
           <p className="w-[300px] pt-6">

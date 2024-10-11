@@ -1,10 +1,10 @@
-import React from 'react'
+ 
 import Subhead from '../components/Subhead'
 import RunningSlide from './RunningSlide'
 
 const Teams = () => {
   return (
-    <div>
+    <div className='bg-white'>
           <Subhead sectionName='Teams' />
           <  RunningSlide />
           

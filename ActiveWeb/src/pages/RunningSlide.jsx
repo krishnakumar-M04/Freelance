@@ -45,7 +45,7 @@ const RunningSlide = () => {
   ];
 
   return (
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 mt-10 mb-10" data-aos="fade-up">
           <h1 className="pt-20 text-2xl font-bold pb-20 text-center">OUR Founders</h1>
       <Swiper
         slidesPerView={1}
