@@ -1,0 +1,22 @@
+.name{
+    margin-left: 50px;
+    font-size: 30px;
+}
+nav ul li{
+     margin-left: 50px;
+     font-size: 18px;
+}
+nav li a.active{
+    color: rgb(52,191,73);
+}
+nav{
+    background-color: #ffff;
+    height: 100px;
+    text-align: center;
+    font-family: roboto;
+}
+.footer-nav{
+    width: 1000px;
+    height: 2px;
+    color: rgb(22, 21, 21);
+}
