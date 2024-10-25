@@ -39,7 +39,7 @@ const Product = () => {
   ])
   return (
     <div>
- 
+      <Outlet context={products} />
       <ul>
         {
           products.map((prod) => {
@@ -57,7 +57,7 @@ const Product = () => {
         }
         
         </ul>
-        <Outlet context={products} />
+   
      
       {/* outlet will decide in  which child component is to be loaded  */}
     </div>
