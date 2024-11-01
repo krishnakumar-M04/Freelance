@@ -20,7 +20,7 @@ const Banner7 = () => {
           </button>
           <button
             type="submit"
-            className="text-[#361263] rounded-full w-60 h-14 font-semibold text-xl bg-[#fff]"
+            className="banner7-btn2 text-[#361263] rounded-full w-60 h-14 font-semibold text-xl bg-[#fff]"
           >
             View Our Plans
           </button>

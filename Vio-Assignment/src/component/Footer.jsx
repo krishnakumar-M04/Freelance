@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#411A74]">
-        <div className="flex md:flex flex-wrap justify-around pt-32">
+        <div className=" footer flex  md:flex flex-wrap justify-around pt-32">
           <div>
             <img
               className="pb-5 ml-7"
@@ -14,7 +14,7 @@ const Footer = () => {
             <img src="https://placehold.co/140x50" alt="" />
           </div>
 
-          <div>
+          <div className="footer-cont">
             <h1 className="text-[#9c71d4] font-semibold text-2xl ">
               industries
             </h1>
@@ -27,7 +27,7 @@ const Footer = () => {
               <li>health</li>
             </ul>
           </div>
-          <div>
+          <div className="footer-cont">
             <h1 className="text-[#9c71d4] font-semibold text-2xl ">Solution</h1>
             <ul className="list">
               <li>Assistance</li>
@@ -37,7 +37,7 @@ const Footer = () => {
               <li>health</li>
             </ul>
           </div>
-          <div>
+          <div className="footer-cont">
             <h1 className="text-[#9c71d4] font-semibold text-2xl ">Company</h1>
             <ul className="list">
               <li>about us</li>
@@ -46,12 +46,12 @@ const Footer = () => {
               <li>blog</li>
             </ul>
           </div>
-          <div>
+          <div className="footer-cont">
             <h1 className="text-[#9c71d4] font-semibold text-2xl ">
               Get the latest
             </h1>
             <p className="w-80 pt-4 pb-4 text-white text-lg">
-              Sign up to receive benef in your inbox once a month
+              Sign up to receive benefits in your inbox once a month
             </p>
             <input
               className="w-56 h-10 bg-transparent border-2 "
@@ -70,8 +70,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-[90%] h-1 bg-white ml-16 mt-16"></div>
-        <p className="mt-16 text-white text-lg w-[90%] ml-16 ">
+        <div className="w-[90%] h-1 bg-white ml-16 mt-16 line"></div>
+        <p className="mt-16 text-white text-lg w-[90%] ml-16 line ">
           A huge differentiator between corporate medical insurance plans is the
           waiting period. A group mediclaim insurance for employees doesn&apos;t
           have this limitation. By paying a small amount, employees get group

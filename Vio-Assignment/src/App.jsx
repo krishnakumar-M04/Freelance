@@ -11,6 +11,7 @@ import Banner5 from "./component/Banner5";
 import Banner7 from "./component/Banner7";
 import Post from "./component/post";
 import Footer from "./component/Footer";
+import Howwork from "./component/Howwork";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Banner4 />
       <Sponser />
       <Banner5 />
+      <Howwork/>      
       <Post/>
       <Banner7 />
       <Footer/>
