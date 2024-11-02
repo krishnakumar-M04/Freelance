@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#411A74]">
-        <div className=" footer flex  md:flex flex-wrap justify-around pt-32">
+        <div className=" footer flex  md:flex gap-8 flex-wrap justify-around pt-32">
           <div>
             <img
               className="pb-5 ml-7"

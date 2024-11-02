@@ -5,6 +5,11 @@
   text-transform: capitalize;
   font-family: "inter";
 }
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 24px;  /* Set the arrow size */
+  color: black;     /* Set the arrow color */
+}
 .nav-bar ul {
   display: flex;
   flex-wrap: wrap;
@@ -28,18 +33,16 @@
 .footer-label input {
   width: 20px;
 }
-.mobileNav ul li{
+.mobileNav li{
   display: block;
+    padding-top: 10px;
 }
 
 
 
 /* Media Queries */
 
-@media screen and (max-width: 1300px) {
-  .toggle {
-    visibility: visible; /* Show toggle button on smaller screens */
-  }
+@media screen and (max-width: 1280px) { 
   .banner .svg {
     display: none;
   }
@@ -58,9 +61,15 @@
   .banner1 {
     margin-left: 100px;
   }
-  
+  .talk{
+   right: 35%;
+  }
+  .nav-bar{
+    margin-left: 90px;
+    margin-top: 50px;
+  }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .banner2 {
     flex-direction: column;
   }
@@ -68,6 +77,9 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+  .talk{
+    right: 28%;
+   }
 }
 @media screen and (max-width: 700px) {
   .banner {
@@ -154,7 +166,7 @@
   .work-cont {
     width: 100%;
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 80px;
   }
   .line{
     margin-left: 20px;
@@ -166,5 +178,10 @@
   }
   .banner2-cont {
     border: none;
+  }
+  
+  .post{
+    margin-left: 20px;
+    
   }
 }

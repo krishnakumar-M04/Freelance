@@ -40,10 +40,10 @@ const Post = () => {
         <div className="flex  md:flex mt-10 flex-row gap-16 justify-center flex-wrap">
           {cont.map((content, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="">
                 <img className="w-96" src={content.image} alt="" />
-                <div className="mt-4">
-                  <p className="text-[#6b429c]">{content.title}</p>
+                <div className="mt-4 post ">
+                  <p className="text-[#6b429c] ">{content.title}</p>
                   <h1 className="w-96 pt-3 text-xl text-[#361263] font-bold">
                     {content.desc}
                   </h1>
