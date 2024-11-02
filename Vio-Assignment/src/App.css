@@ -5,19 +5,8 @@
   text-transform: capitalize;
   font-family: "inter";
 }
-.swiper-button-next,
-.swiper-button-prev {
-  font-size: 24px;  /* Set the arrow size */
-  color: black;     /* Set the arrow color */
-}
-.nav-bar ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.nav-bar ul li {
-  margin-right: 30px;
-}
+
+
 .icons {
   display: inline;
   color: black;
@@ -64,10 +53,7 @@
   .talk{
    right: 35%;
   }
-  .nav-bar{
-    margin-left: 90px;
-    margin-top: 50px;
-  }
+ 
 }
 @media screen and (max-width: 1024px) {
   .banner2 {
