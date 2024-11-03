@@ -2,10 +2,10 @@ import { GoArrowRight } from "react-icons/go";
 import img1 from "../assets/curve1.png";
 import img2 from "../assets/click.png";
 
-const Banner4 = () => {
+const Section5 = () => {
   return (
     <>
-      <div className="relative mt-28  bg-[#714BFF] p-8 flex flex-wrap justify-center items-start text-white">
+      <div className="relative mt-28  bg-[#714BFF] p-4 flex flex-wrap justify-center items-start text-white ml-2 mr-0 md:p-8">
         <img
           src={img1}
           alt=""
@@ -52,4 +52,4 @@ const Banner4 = () => {
   );
 };
 
-export default Banner4;
+export default Section5;

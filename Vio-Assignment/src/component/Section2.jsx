@@ -1,7 +1,7 @@
 import img1 from "../assets/Ballon.png";
 import img2 from "../assets/jar.png";
 import img3 from "../assets/rocket.png";
-const Banner1 = () => {
+const Section2 = () => {
   const content = [
     {
       image: img1,
@@ -43,4 +43,4 @@ const Banner1 = () => {
   );
 };
 
-export default Banner1;
+export default Section2;

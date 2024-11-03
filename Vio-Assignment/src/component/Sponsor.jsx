@@ -10,7 +10,7 @@ import img4 from "../assets/company-logo/10004.svg";
 import img5 from "../assets/company-logo/10005.svg";
 import img6 from "../assets/company-logo/10006.svg";
 import img7 from "../assets/company-logo/10007.png";
-const Sponser = () => {
+const Sponsor = () => {
   const cont = [
     {
       image: img1,
@@ -100,4 +100,4 @@ const Sponser = () => {
   );
 };
 
-export default Sponser;
+export default Sponsor;

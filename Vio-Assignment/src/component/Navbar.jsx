@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
-const Header = () => {
+const Navbar = () => {
   
   const [isMenuOpen, setIsMenuOpen] = useState();
 
@@ -52,20 +52,20 @@ const Header = () => {
         ></i>
 
         <div
-          className={`absolute text-[#361263]  xl:hidden top-24 left-0 w-full bg-[rgba(0,0,0,0.3)] flex flex-col items-center gap-6 font-bold text-xl transform transition-transform ${
+          className={`absolute text-[#fff]  xl:hidden top-24 left-0 w-full bg-[rgba(0,0,0,0.8)] flex flex-col items-center gap-6 font-bold text-xl transform transition-transform ${
             isMenuOpen ? "opacity-100" : "opacity-0"
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
-          <li className="list-none w-full text-center p-1 pt-4 hover: transition-all cursor-pointer">Industries <HiChevronDown className="icons" /></li>
-          <li className="list-none w-full text-center p-1 hover: transition-all cursor-pointer">solution <HiChevronDown className="icons" /></li>
-          <li className="list-none w-full text-center p-1 hover: transition-all cursor-pointer">partners <HiChevronDown className="icons" /></li>
-          <li className="list-none w-full text-center p-1 hover: transition-all cursor-pointer">about</li>
-          <li className="list-none w-full text-center p-1 pb-10 hover: transition-all cursor-pointer">Contact</li>
+          <li className="list-none w-full text-center p-4  hover:bg-[#3294d5] hover:text-white transition-all cursor-pointer">Industries <HiChevronDown className="icons" /></li>
+          <li className="list-none w-full text-center p-1   hover:bg-[#3294d5] h-[100%] hover:text-white transition-all cursor-pointer">solution <HiChevronDown className="icons" /></li>
+          <li className="list-none w-full text-center p-1  hover:bg-[#3294d5] hover:text-white transition-all cursor-pointer">partners <HiChevronDown className="icons" /></li>
+          <li className="list-none w-full text-center p-1 hover:bg-[#3294d5] hover:text-white transition-all cursor-pointer">about</li>
+          <li className="list-none w-full text-center p-1 hover:bg-[#3294d5]   hover:text-white transition-all cursor-pointer">Contact</li>
         </div>
       </header>
     </div>
   );
 };
 
-export default Header;
+export default Navbar;

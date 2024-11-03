@@ -4,7 +4,7 @@ import { BsPersonCheckFill } from "react-icons/bs";
 import { IoCalendarNumberOutline } from "react-icons/io5";
 import { GiStarKey } from "react-icons/gi";
 import img from "../assets/banner3.png";
-const Banner3 = () => {
+const Section4 = () => {
   const cont = [
     {
       img: <BsPersonBoundingBox />,
@@ -80,4 +80,4 @@ const Banner3 = () => {
   );
 };
 
-export default Banner3;
+export default Section4;

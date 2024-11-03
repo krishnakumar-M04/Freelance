@@ -67,49 +67,17 @@
   .talk{
     right: 28%;
    }
+   .work img {
+    width: 60%;
+    margin-left: 180px;
+  }
+  .work-cont {
+    width: 80%;
+    margin-left: 120px;
+  }
    
 
 }
-@media screen and (max-width: 750px) {
-  .banner {
-    display: flex;
-    flex-direction: column;
-  }
-  .banner .banner-cont {
-    width: 100%;
-    text-align: center;
-  }
-  .banner img {
-    width: 100%;
-  }
-  .banner h1 {
-    margin-left: 20px;
-  }
-  .para {
-    margin-left: 50px;
-  }
-  .work .img {
-    width: 95%;
-    margin-left: 15px;
-    margin-right: 0px;
-  }
-  .work-cont {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 30px;
-  }
-  .footer {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  .footer-cont {
-    margin-top: 20px;
-  }
-  
-}
-
-/* banner1 */
 @media screen and (max-width: 850px) {
   .banner1 {
     margin-left: 40px;
@@ -152,16 +120,59 @@
   .work img {
     width: 95%;
     margin-left: 0px;
+ 
   }
   .work-cont {
-    width: 100%;
+    width: 70%;
     margin-right: 0px;
-    margin-left: 80px;
+    margin-left: 120px;
+    font-size: 18px;
   }
   .line{
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 750px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner-cont {
+    width: 100%;
+    text-align: center;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner h1 {
+    margin-left: 20px;
+  }
+  .para {
+    margin-left: 50px;
+  }
+  .work .img {
+    width: 95%;
+    margin-left:30px;
+    margin-right: 0px;
+  }
+  /* .work-cont {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 50px;
+  } */
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-cont {
+    margin-top: 20px;
+  }
+  
+}
+
+/* banner1 */
+
 @media screen and (max-width: 450px) {
   .banner7-btn2 {
     margin-top: 20px;
@@ -173,5 +184,16 @@
   .post{
     margin-left: 20px;
     
+  }
+  .work-cont {
+    width: 95%;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-size: 18px;
+    
+  }
+  .work-cont h1{
+    font-size: 20px;
+     margin-bottom: 50px;
   }
 }

@@ -1,4 +1,4 @@
-const Banner7 = () => {
+const Section9 = () => {
   return (
     <>
       <div className="bg-[#B5B8F2] mt-28">
@@ -30,4 +30,4 @@ const Banner7 = () => {
   );
 };
 
-export default Banner7;
+export default Section9;

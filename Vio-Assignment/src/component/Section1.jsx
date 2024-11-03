@@ -1,6 +1,6 @@
 import img1 from "../assets/firstBanner-img.png";
 import img2 from "../assets/fristBanner-svg.png";
-const Banner = () => {
+const Section1 = () => {
   return (
     <>
       <div className="flex flex-wrap justify-center font-inter banner ">
@@ -31,4 +31,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Section1;

@@ -1,6 +1,6 @@
 import img1 from "../assets/women.png";
 import { useState } from "react";
-const Howwork = () => {
+const Section7 = () => {
   const [bgcolor, setcolour] = useState([
     "#B5B8F2",
     "#EBE5FF",
@@ -25,9 +25,9 @@ const Howwork = () => {
         <div className=" mt-20 ml-20 img">
           <img className=" bg-[#EBE5FF]" src={img1} alt="" />
         </div>
-        <div className="w-[50%]  work-cont">
+        <div className="w-[100%] ml-0  ">
           <div
-            className="w-[80%]   bg-[#EBE5FF]  rounded-3xl  "
+            className="w-[80%] work-cont  bg-[#EBE5FF]  rounded-3xl  "
             style={{ background: bgcolor[0] }}
             onClick={() => hoverEffect(0)}
           >
@@ -37,7 +37,7 @@ const Howwork = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10 bg-[#EBE5FF]  rounded-3xl    "
+            className="w-[80%] h-[140px] mt-10 bg-[#EBE5FF]  rounded-3xl work-cont   "
             style={{ background: bgcolor[1] }}
             onClick={() => hoverEffect(1)}
           >
@@ -47,7 +47,7 @@ const Howwork = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF]  rounded-3xl "
+            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF] work-cont  rounded-3xl "
             style={{ background: bgcolor[2] }}
             onClick={() => hoverEffect(2)}
           >
@@ -57,7 +57,7 @@ const Howwork = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF]  rounded-3xl "
+            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF]  rounded-3xl work-cont "
             style={{ background: bgcolor[3] }}
             onClick={() => hoverEffect(3)}
           >
@@ -72,4 +72,4 @@ const Howwork = () => {
   );
 };
 
-export default Howwork;
+export default Section7;

@@ -1,6 +1,6 @@
 import { GoArrowRight } from "react-icons/go";
 import img from "../assets/why-image.png";
-const Banner2 = () => {
+const Section3 = () => {
   return (
     <>
       <div className="flex  mt-24 gap-14 ml-40 banner2">
@@ -30,4 +30,4 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default Section3;

@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const Banner5 = () => {
+const Section6 = () => {
   const cont = [
     {
       image: img1,
@@ -55,4 +55,4 @@ const Banner5 = () => {
   );
 };
 
-export default Banner5;
+export default Section6;

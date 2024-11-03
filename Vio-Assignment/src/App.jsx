@@ -2,36 +2,37 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./App.css";
-import Banner from "./component/Banner";
-import Banner1 from "./component/Banner1";
-import Banner2 from "./component/Banner2";
-import Banner3 from "./component/Banner3";
-import Banner4 from "./component/Banner4";
+
 import Explore from "./component/Explore";
-import Header from "./component/Header";
-import Sponser from "./component/sponser";
-import Banner5 from "./component/Banner5";
-import Banner7 from "./component/Banner7";
+import Navbar from "./component/Navbar";
+import Sponsor from "./component/Sponsor";
 import Post from "./component/post";
 import Footer from "./component/Footer";
-import Howwork from "./component/Howwork";
+import Section1 from "./component/Section1";
+import Section2 from "./component/Section2";
+import Section3 from "./component/Section3";
+import Section4 from "./component/Section4";
+import Section5 from "./component/Section5";
+import Section6 from "./component/Section6";
+import Section9 from "./component/Section9";
+import Section7 from "./component/Section7";
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <Banner1 />
-      <Banner2 />
-      <Banner3 />
+      <Navbar />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
       <Explore />
-      <Banner4 />
-      <Sponser />
-      <Banner5 />
-      <Howwork/>      
-      <Post/>
-      <Banner7 />
-      <Footer/>
+      <Section5 />
+      <Sponsor />
+      <Section6 />
+      <Section7 />
+      <Post />
+      <Section9 />
+      <Footer />
     </>
   );
 }

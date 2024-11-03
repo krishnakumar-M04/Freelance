@@ -1,6 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -83,7 +81,9 @@ const Explore = () => {
                     <h1 className="text-xl text-[#361263] ml-1 font-bold">
                       {content.title}
                     </h1>
-                    <p className="w-72 text-xl pt-4 text-left md:w-36 text-center ml-10">{content.desc}</p>
+                    <p className="w-72 text-xl pt-4 text-left md:w-36 text-center ml-10">
+                      {content.desc}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -91,7 +91,7 @@ const Explore = () => {
           })}
         </Swiper>
       </div>
-      <style jsx>{`
+      <style>{`
                .swiper-button-next,
  .swiper-button-prev {
   color: #361263;
