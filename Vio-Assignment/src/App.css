@@ -27,6 +27,11 @@
     padding-top: 10px;
 }
 
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+  color: black !important;
+  font-size: 24px !important;
+}
 
 
 /* Media Queries */
@@ -66,8 +71,10 @@
   .talk{
     right: 28%;
    }
+   
+
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .banner {
     display: flex;
     flex-direction: column;
@@ -102,6 +109,11 @@
   }
   .footer-cont {
     margin-top: 20px;
+  }
+  .explore-cont{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
 }
 

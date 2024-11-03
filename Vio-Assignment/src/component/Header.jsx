@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
-import { IoHome } from "react-icons/io5";
 const Header = () => {
   
   const [isMenuOpen, setIsMenuOpen] = useState();

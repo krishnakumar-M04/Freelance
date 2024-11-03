@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -59,31 +59,31 @@ const Explore = () => {
           breakpoints={{
             "@0.00": {
               slidesPerView: 1,
-              spaceBetween: 1,
+              spaceBetween: 10,
             },
             "@0.75": {
               slidesPerView: 2,
-              spaceBetween: 2,
+              spaceBetween: 20,
             },
             "@1.00": {
               slidesPerView: 3,
-              spaceBetween: 5,
+              spaceBetween: 30,
             },
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper flex flex-wrap justify- "
+          className="mySwiper flex flex-wrap justify-center  ml-20"
         >
           {cont.map((content, index) => {
             return (
               <SwiperSlide key={index} className="">
-                <div className="flex flex-wrap gap-0 justify-center ml-0">
+                <div className="flex flex-col justify-center ml-0 mr-0 explore-cont ">
                   <img src={content.image} alt="" />
                   <div className="text-center">
-                    <h1 className="text-2xl text-[#361263] font-bold">
+                    <h1 className="text-xl text-[#361263] ml-1 font-bold">
                       {content.title}
                     </h1>
-                    <p className="w-72 text-xl pt-4">{content.desc}</p>
+                    <p className="w-72 text-xl pt-4 text-left md:w-36 text-center ml-10">{content.desc}</p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -91,9 +91,13 @@ const Explore = () => {
           })}
         </Swiper>
       </div>
-      {/* <style jsx>{`
-               
-                `}</style> */}
+      <style jsx>{`
+               .swiper-button-next,
+ .swiper-button-prev {
+  color: #361263;
+  font-size: 1px!important;
+}
+                `}</style>
     </>
   );
 };

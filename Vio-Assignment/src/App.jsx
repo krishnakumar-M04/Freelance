@@ -1,3 +1,6 @@
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./App.css";
 import Banner from "./component/Banner";
 import Banner1 from "./component/Banner1";
