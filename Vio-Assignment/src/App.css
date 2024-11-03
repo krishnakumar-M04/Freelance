@@ -161,8 +161,11 @@
   }
   .work .img {
     width: 95%;
-    margin-left:90px;
+    margin-left:30px;
     margin-right: 0px;
+  }
+  .work-cont{
+    margin-left: 70px;
   }
  .sec7-cont{
   flex-direction: column;

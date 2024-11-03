@@ -33,7 +33,7 @@ const Section5 = () => {
           </div>
 
           <p className="mt-6 text-xl">
-            Experience a new level of travel confidence with FinuSmart’s
+            Experience a new level of travel confidence with FinuSmart’s <br />
             dedicated solutions.
           </p>
 
