@@ -21,13 +21,13 @@ const Section7 = () => {
           Simplifying the XXXX experience
         </h4>
       </div>
-      <div className="flex justify-center gap-20 work">
-        <div className=" mt-20 ml-20 img">
-          <img className=" bg-[#EBE5FF]" src={img1} alt="" />
+      <div className="flex justify-center gap-16 work">
+        <div className=" mt-20 ml-20 w-[80%] img">
+          <img className=" bg-[#EBE5FF] w-[90%]" src={img1} alt="" />
         </div>
         <div className="w-[100%] ml-0  ">
           <div
-            className="w-[80%] work-cont  bg-[#EBE5FF]  rounded-3xl  "
+            className="w-[85%] work-cont  bg-[#EBE5FF]  rounded-3xl  "
             style={{ background: bgcolor[0] }}
             onClick={() => hoverEffect(0)}
           >
@@ -37,7 +37,7 @@ const Section7 = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10 bg-[#EBE5FF]  rounded-3xl work-cont   "
+            className="w-[85%] h-[140px] mt-10 bg-[#EBE5FF]  rounded-3xl work-cont   "
             style={{ background: bgcolor[1] }}
             onClick={() => hoverEffect(1)}
           >
@@ -47,7 +47,7 @@ const Section7 = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF] work-cont  rounded-3xl "
+            className="w-[85%] h-[140px] mt-10  bg-[#EBE5FF] work-cont  rounded-3xl "
             style={{ background: bgcolor[2] }}
             onClick={() => hoverEffect(2)}
           >
@@ -57,7 +57,7 @@ const Section7 = () => {
             </h1>
           </div>
           <div
-            className="w-[80%] h-[140px] mt-10  bg-[#EBE5FF]  rounded-3xl work-cont "
+            className="w-[85%] h-[140px] mt-10  bg-[#EBE5FF]  rounded-3xl work-cont "
             style={{ background: bgcolor[3] }}
             onClick={() => hoverEffect(3)}
           >
