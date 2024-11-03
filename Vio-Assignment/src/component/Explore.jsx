@@ -55,33 +55,33 @@ const Explore = () => {
           //   clickable: true,
           //       }}
           breakpoints={{
-            "@0.00": {
+            450: {
               slidesPerView: 1,
               spaceBetween: 10,
             },
-            "@0.75": {
+             768: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            "@1.00": {
+            1440: {
               slidesPerView: 3,
               spaceBetween: 30,
             },
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper flex flex-wrap justify-center  ml-20"
+          className="mySwiper ml-20"
         >
           {cont.map((content, index) => {
             return (
               <SwiperSlide key={index} className="">
-                <div className="flex flex-col justify-center ml-0 mr-0 explore-cont ">
+                <div className=" flex  flex-wrap justify-center ml-0 mr-0 explore-cont ">
                   <img src={content.image} alt="" />
                   <div className="text-center">
                     <h1 className="text-xl text-[#361263] ml-1 font-bold">
                       {content.title}
                     </h1>
-                    <p className="w-72 text-xl pt-4 text-left md:w-36 text-center ml-10">
+                    <p className=" text-xl pt-4 text-center ml-10">
                       {content.desc}
                     </p>
                   </div>
