@@ -37,7 +37,7 @@ const Section6 = () => {
               key={index}
               className="flex justify-center items-center"
             >
-              <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+              <div className="flex flex-col xl:flex-row items-center justify-center gap-10 sec7-cont">
                 <div className="text-center md:text-left">
                   <img src={content.image} alt="" className="mx-auto" />
                   <h1 className="text-xl pt-5 font-bold">{content.title}</h1>

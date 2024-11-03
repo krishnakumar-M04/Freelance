@@ -60,6 +60,13 @@
   .banner2 {
     flex-direction: column;
   }
+  .banner2 img{
+    margin-left: 180px;
+  }
+  .banner2-cont{
+    width: 80%;
+    margin-left: 40px;
+  }
   .explore {
     margin-left: 30px;
     margin-right: 30px;
@@ -95,10 +102,12 @@
     margin-right: 0px;
   }
   .banner2 img {
-    width: 100%;
+    width: 70%;
+    margin-left: 100px;
   }
   .banner2-cont {
-    width: 100%;
+    width: 70%;
+    margin-left: 80px;
   }
   .banner3 {
     flex-direction: column;
@@ -155,11 +164,9 @@
     margin-left:90px;
     margin-right: 0px;
   }
-  /* .work-cont {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 50px;
-  } */
+ .sec7-cont{
+  flex-direction: column;
+ }
   .footer {
     flex-direction: column;
     text-align: center;
@@ -177,8 +184,15 @@
   .banner7-btn2 {
     margin-top: 20px;
   }
+  .banner2 img {
+    width: 100%;
+    margin-left: 0px;
+  }
   .banner2-cont {
-    border: none;
+    width: 100%;
+   margin-left: 0px; 
+   margin-bottom: 20px;
+   height: 450px;
   }
   
   .post{
@@ -201,7 +215,5 @@
     font-size: 20px;
      margin-bottom: 50px;
   }
-  .explore-cont{
-       
-  }
+ 
 }

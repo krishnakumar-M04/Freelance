@@ -56,23 +56,23 @@ const Sponsor = () => {
           //   clickable: true,
           //       }}
           breakpoints={{
-            "@0.00": {
+            450: {
               slidesPerView: 1,
               spaceBetween: 10,
             },
-            "@0.75": {
+             550: {
               slidesPerView: 2,
               spaceBetween: 2,
             },
-            "@1.00": {
+            760: {
               slidesPerView: 3,
               spaceBetween: 5,
             },
-            "@1.50": {
+            850: {
               slidesPerView: 4,
               spaceBetween: 5,
             },
-            "@2.00": {
+            1440: {
               slidesPerView: 5,
               spaceBetween: 5,
             },
